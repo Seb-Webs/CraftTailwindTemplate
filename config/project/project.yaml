@@ -1,0 +1,22 @@
+dateModified: 1695986327
+email:
+  fromEmail: seb@sebwebs.com
+  fromName: SebWebs
+  transportType: craft\mail\transportadapters\Sendmail
+meta:
+  __names__:
+    0d48cab5-32dd-4225-9492-77cc34c891c9: SebWebs # SebWebs
+    8a8f9eb9-a6fc-47ea-bc13-48855d83a930: Common # Common
+    68641378-3a08-4abb-9edf-c2590b935017: SebWebs # SebWebs
+system:
+  edition: solo
+  live: true
+  name: SebWebs
+  schemaVersion: 4.5.3.0
+  timeZone: America/Los_Angeles
+users:
+  allowPublicRegistration: false
+  defaultGroup: null
+  photoSubpath: null
+  photoVolumeUid: null
+  requireEmailVerification: true

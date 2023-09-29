@@ -1,0 +1,19 @@
+{
+  "name": "sebwebs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx tailwindcss build -i web/css/styles.css -o web/css/app.css",
+    "watch": "npx tailwindcss build -i web/css/styles.css -o web/css/app.css --watch",
+    "prod": "NODE_ENV=production npx tailwindcss build web/css/styles.css -o web/css/app.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "autoprefixer": "^10.4.16",
+    "postcss": "^8.4.31",
+    "tailwindcss": "^3.3.3"
+  }
+}
